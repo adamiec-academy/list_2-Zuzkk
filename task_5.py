@@ -10,7 +10,7 @@ def cipher(text, shift):
             result += chr(ord(letter) + shift - 26)
         else:
             result += chr(ord(letter) + shift)
-    return print(result)
+    return result
 
 
 def decipher(text, shift):
@@ -24,8 +24,8 @@ def decipher(text, shift):
             result += chr(ord(letter) - shift + 26)
         else:
             result += chr(ord(letter) - shift)
-    return print(result)
+    return result
 
 
-cipher("Imperator", 1)
-decipher("Jnqfsbups", 1)
+print(cipher("Imperator", 1))
+print(decipher("Jnqfsbups", 1))

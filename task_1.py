@@ -14,8 +14,3 @@ def remove_parentheses(text):
         elif not delate_spacebar and not is_inside:
             result += letter
     return result
-
-
-text = "(Nie) jest tak źle"
-print(remove_parentheses(text))
-

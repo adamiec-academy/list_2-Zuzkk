@@ -1,5 +1,5 @@
 def multiplication_table(x1, x2, y1, y2):
-    max_spaces = len(str(x2*y2)) + 3
+    max_spaces = len(str(x2*y2))
     print(max_spaces * " " + " | ", end="")
     for x in range(x1, x2 + 1):
         print(f"{x : {max_spaces}}", end="")
